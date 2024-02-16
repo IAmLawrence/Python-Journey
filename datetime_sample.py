@@ -49,3 +49,4 @@ string_date = "April 2,2020"
 converted_str_date = datetime.datetime.strptime(string_date, "%B %d,%Y")
 print("From Str to Date: ", converted_str_date)
 print("converted_str_date type: ", type(converted_str_date))
+
