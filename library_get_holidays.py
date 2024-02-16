@@ -10,8 +10,6 @@ for day in ph_holidays.items():
     vals = ({
         'date': day[0],
         'day': days_to[day[0].isoweekday()-1],
-        # 'weekday': day[0].weekday() >= 5,
-        # 'weekend': day[0].weekday() < 6,
         'events': day[1]
     })
 
