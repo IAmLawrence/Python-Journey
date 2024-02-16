@@ -1,5 +1,4 @@
 from holidays import country_holidays
-from datetime import date
 
 ph_holidays = country_holidays('PH', years=2024)
 new_holidays = []
