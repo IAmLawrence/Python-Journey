@@ -69,5 +69,3 @@ for _ in range(3):
 
 k_v_results = dict(map(lambda k, v: (k, v), employees_lst, age_lst))
 print("k_v_results>", k_v_results)
-
-# push
